@@ -1,15 +1,48 @@
-* {
-    margin: 0;
-    padding: 0;
-}
 
+//<nullstyle>==================================================
+@import "nullstyle.scss";
+//</nullstyle>==================================================
 
+//<mixins>==================================================
+@import "mixins";
+//</mixins>==================================================
+
+//<fonts>==================================================
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+//</fonts>==================================================
+
+//<variables>==================================================
+$ff: Montserrat;
+$orangeColor: #BF9140;
+$greyColor: #8B929A;
+$blueGradientColor: linear-gradient(90.38deg, #245293 0%, #4485E4 100%);
+//</variables>==================================================
+
+//<main>==================================================
 body {
+    overflow-x: hidden;
     z-index: -1;
     background-image: url("/img/bg.png");;
     height: 4500px;
 
 }
 .logo {
+    width: 75px;
+    height: 134px;
     margin-left: 12%;
+    margin-top: 0.6%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+//</main>==================================================
