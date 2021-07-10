@@ -19,20 +19,57 @@ $blueGradientColor: linear-gradient(90.38deg, #245293 0%, #4485E4 100%);
 //</variables>==================================================
 
 //<main>==================================================
+* {
+    font-family: $ff;
+}
 body {
     overflow-x: hidden;
     z-index: -1;
-    background-image: url("/img/bg.png");;
+    background-image: url("/img/bg.png");
     height: 4500px;
 
 }
-.logo {
-    width: 75px;
-    height: 134px;
-    margin-left: 12%;
-    margin-top: 0.6%;
+.header__menu {
+    .header__logo {
+        width: 75px;
+        height: 134px;
+        margin-left: 12%;
+        z-index: 1;
+        &_img {
+            margin-top: 0.6%;
+            
+        }
+    }
+    .menu__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 32%;
+        margin-left: 34.4%;
+        position: absolute;
+        // background: $blueGradientColor;
+        // border-radius: 5px 5px 5px 5px;
+        top: 7%;
+        .menu__item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin: 0px 13px;
+            padding: 5px 0px;
+            &_link {
+                color: #fff;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                &:hover {
+                    color: $orangeColor;
+                }
+            }
+        }
+    }
 }
-
 
 
 

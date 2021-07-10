@@ -74,6 +74,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
+* {
+  font-family: Montserrat;
+}
+
 body {
   overflow-x: hidden;
   z-index: -1;
@@ -81,9 +85,51 @@ body {
   height: 4500px;
 }
 
-.logo {
+.header__menu .header__logo {
   width: 75px;
   height: 134px;
   margin-left: 12%;
+  z-index: 1;
+}
+.header__menu .header__logo_img {
   margin-top: 0.6%;
+}
+.header__menu .menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 32%;
+  margin-left: 34.4%;
+  position: absolute;
+  top: 7%;
+}
+.header__menu .menu__list .menu__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0px 13px;
+  padding: 5px 0px;
+}
+.header__menu .menu__list .menu__item_link {
+  color: #fff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+.header__menu .menu__list .menu__item_link:hover {
+  color: #BF9140;
 }
