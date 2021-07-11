@@ -16,6 +16,7 @@ $ff: Montserrat;
 $orangeColor: #BF9140;
 $greyColor: #8B929A;
 $blueGradientColor: linear-gradient(90.38deg, #245293 0%, #4485E4 100%);
+$orangeGradientColor: linear-gradient(90.38deg, #D55707 0%, #F59902 100%);
 //</variables>==================================================
 
 //<main>==================================================
@@ -24,7 +25,7 @@ $blueGradientColor: linear-gradient(90.38deg, #245293 0%, #4485E4 100%);
 }
 body {
     overflow-x: hidden;
-    z-index: -1;
+    z-index: -2;
     background-image: url("/img/bg.png");
     height: 4500px;
 
@@ -89,6 +90,7 @@ body {
             height: 59px;
         }
         &_desc  {
+            margin-top: 5%;
             width: 75%;
             font-style: normal;
             font-weight: normal;
@@ -113,12 +115,36 @@ body {
             font-size: 24px;
             line-height: 29px;
         }
+        .page__main_btn:hover {
+            background: $orangeGradientColor;
+        }
     }
     .page__main-img {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
         margin-left: 10%;
+    }
+    .page__main-more {
+        margin-top: 5%;
+        margin-left: 48.5%;
+        &_text {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 22px;
+            color: $greyColor;
+        }
+        &_icon {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-left: 31.5%;
+            margin-top: 5%;
+        }
     }
 }
 
