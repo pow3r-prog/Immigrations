@@ -1,2 +1,2 @@
 # Immigrations
-its csgo server
+web site for csgo server "immigrations"
