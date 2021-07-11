@@ -17,6 +17,7 @@ $orangeColor: #BF9140;
 $greyColor: #8B929A;
 $blueGradientColor: linear-gradient(90.38deg, #245293 0%, #4485E4 100%);
 $orangeGradientColor: linear-gradient(90.38deg, #D55707 0%, #F59902 100%);
+$blue: gradient(91.44deg, #255395 0%, #4383E1 100%);
 //</variables>==================================================
 
 //<main>==================================================
@@ -116,6 +117,7 @@ body {
             line-height: 29px;
         }
         .page__main_btn:hover {
+            box-shadow: 0px 0px 50px #D55707;
             background: $orangeGradientColor;
         }
     }
@@ -147,7 +149,50 @@ body {
         }
     }
 }
+.page__rules {
+    .page__rules_title {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 5%;
+        margin-left: -0.8%;
+        width: 86%;
+        height: auto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 288px;
+        line-height: 351px;
+        letter-spacing: 0.007em;
+        color: #09111B;
+        text-shadow: $greyColor 0 0 0;
+    }
+    .rules__container {
+        display: flex;
+        flex-wrap: wrap;
+        // justify-content: center;
+        margin-top: 5%;
+        margin-left: 9.15%;
+        .rules__list {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            color: #fff;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 22px;
+            letter-spacing: 0.007em;
+            width: 81.5%;
+            &_item {
+                margin-top: 2%;
+                list-style-image: url("/img/list-icon.svg");
+                list-style-position: outside;
+            }
+        }
+        
 
+    }
+}
 
 
 
