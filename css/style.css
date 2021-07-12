@@ -308,3 +308,135 @@ body {
   list-style-image: url("/img/list-icon.svg");
   list-style-position: outside;
 }
+
+.page__prices .price__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 5%;
+  margin-left: -0.8%;
+  width: 86%;
+  height: auto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 288px;
+  line-height: 351px;
+  letter-spacing: 0.007em;
+  color: #09111B;
+  text-shadow: #8B929A 0 0 0;
+}
+.page__prices .donate-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5%;
+}
+.page__prices .donate-container .donate-block__vip {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 382px;
+  height: 699px;
+  background: #172536;
+  margin-left: 1%;
+}
+.page__prices .donate-container .donate-block__vip_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 10%;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #fff;
+}
+.page__prices .donate-container .donate-block__vip .privilege__name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 8%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  color: #204B89;
+  margin-top: -82%;
+}
+.page__prices .donate-container .donate-block__admin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 382px;
+  height: 699px;
+  background: #172536;
+  margin-left: 5%;
+}
+.page__prices .donate-container .donate-block__admin_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 10%;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #fff;
+}
+.page__prices .donate-container .donate-block__admin .privilege__name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 8%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  color: #bb4408;
+  margin-top: -82%;
+}
