@@ -267,6 +267,24 @@ body {
   margin-top: 5%;
   margin-left: 9.15%;
 }
+.page__rules .rules__container_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 5%;
+  width: 91%;
+  color: red;
+  margin-bottom: 2%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 22px;
+}
 .page__rules .rules__container .rules__list {
   display: -webkit-box;
   display: -ms-flexbox;

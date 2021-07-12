@@ -172,6 +172,19 @@ body {
         // justify-content: center;
         margin-top: 5%;
         margin-left: 9.15%;
+        &_title {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            height: 5%;
+            width: 91%;
+            color: red;
+            margin-bottom: 2%;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 22px;
+        }
         .rules__list {
             display: flex;
             flex-direction: column;
