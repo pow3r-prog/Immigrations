@@ -17,7 +17,6 @@ $orangeColor: #BF9140;
 $greyColor: #8B929A;
 $blueGradientColor: linear-gradient(90.38deg, #245293 0%, #4485E4 100%);
 $orangeGradientColor: linear-gradient(90.38deg, #D55707 0%, #F59902 100%);
-$blue: gradient(91.44deg, #255395 0%, #4383E1 100%);
 //</variables>==================================================
 
 //<main>==================================================
@@ -204,6 +203,99 @@ body {
         }
         
 
+    }
+}
+.page__prices {
+    .price__title {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 5%;
+        margin-left: -0.8%;
+        width: 86%;
+        height: auto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 288px;
+        line-height: 351px;
+        letter-spacing: 0.007em;
+        color: #09111B;
+        text-shadow: $greyColor 0 0 0;
+    }
+    .donate-container {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 5%;
+
+        .donate-block__vip {
+            display: flex;
+            flex-wrap: wrap;
+            width: 382px;
+            height: 699px;
+            background: #172536;
+            margin-left: 1%;
+            &_title {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 10%;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 29px;
+                color: #fff;
+            }
+            .privilege__name {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                width: 100%;
+                height: 8%;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 48px;
+                line-height: 59px;
+                color: #204B89;
+                margin-top: -82%;
+            }
+        }
+        .donate-block__admin {
+            display: flex;
+            flex-wrap: wrap;
+            width: 382px;
+            height: 699px;
+            background: #172536;
+            margin-left: 5%;
+            &_title {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 10%;
+                font-weight: bold;
+                font-size: 24px;
+                line-height: 29px;
+                color: #fff;
+            }
+            .privilege__name {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                width: 100%;
+                height: 8%;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 48px;
+                line-height: 59px;
+                color: #bb4408;
+
+                margin-top: -82%;
+            }
+        }
     }
 }
 
