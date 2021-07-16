@@ -647,6 +647,24 @@ body {
         }
     }
 }
+.page__contacts {
+    .contacts__title {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 5%;
+        margin-left: -0.8%;
+        width: 86%;
+        height: auto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 288px;
+        line-height: 351px;
+        letter-spacing: 0.007em;
+        color: #09111B;
+        text-shadow: $greyColor 0 0 0;
+    }
+}
 
 
 
