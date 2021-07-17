@@ -30,8 +30,7 @@ body {
     height: 4500px;
 
 }
-
-.header__menu {
+.header__menu { 
     .header__logo {
         width: 75px;
         height: 134px;
@@ -236,6 +235,7 @@ body {
             height: 699px;
             background: #172536;
             margin-left: 1%;
+            border-radius: 5px;
             &_title {
                 display: flex;
                 flex-wrap: wrap;
@@ -260,7 +260,7 @@ body {
                 font-size: 48px;
                 line-height: 59px;
                 background: linear-gradient(109.01deg, #204B89 33%, #498EF2 66%, #498EF2);
-                -webkit-background-clip: text;
+                background-clip: text;
                 -webkit-text-fill-color: transparent;
             }
             .select {
@@ -444,6 +444,7 @@ body {
             height: 699px;
             background: #172536;
             margin-left: 5%;
+            border-radius: 5px; 
             &_title {
                 display: flex;
                 flex-wrap: wrap;
@@ -468,7 +469,7 @@ body {
                 font-size: 48px;
                 line-height: 59px;
                 background: linear-gradient(109.01deg, #CE4A08 33%, #F79D01 66%, #F79D01);
-                -webkit-background-clip: text;
+                background-clip: text;
                 -webkit-text-fill-color: transparent;
             }
             .select {
