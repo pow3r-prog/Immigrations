@@ -354,6 +354,7 @@ body {
   height: 699px;
   background: #172536;
   margin-left: 1%;
+  border-radius: 5px;
 }
 .page__prices .donate-container .donate-block__vip_title {
   display: -webkit-box;
@@ -392,6 +393,7 @@ body {
   line-height: 59px;
   background: linear-gradient(109.01deg, #204B89 33%, #498EF2 66%, #498EF2);
   -webkit-background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .page__prices .donate-container .donate-block__vip .select {
@@ -619,6 +621,7 @@ body {
   height: 699px;
   background: #172536;
   margin-left: 5%;
+  border-radius: 5px;
 }
 .page__prices .donate-container .donate-block__admin_title {
   display: -webkit-box;
@@ -657,6 +660,7 @@ body {
   line-height: 59px;
   background: linear-gradient(109.01deg, #CE4A08 33%, #F79D01 66%, #F79D01);
   -webkit-background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .page__prices .donate-container .donate-block__admin .select {
