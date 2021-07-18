@@ -32,13 +32,15 @@ body {
 }
 .header__menu { 
     .header__logo {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
         width: 75px;
         height: 134px;
-        margin-left: 12%;
+        margin-left: 9%;
         z-index: 1;
         &_img {
-            margin-top: 0.6%;
-            
+            margin-top: 0.6%; 
         }
     }
     .menu__list {
@@ -47,10 +49,15 @@ body {
         justify-content: space-evenly;
         width: 32%;
         margin-left: 34.4%;
-        position: absolute;
-        // background: $blueGradientColor;
-        // border-radius: 5px;
-        top: 7%;
+        position: fixed;
+        z-index: 50;
+        top: 5%;
+        border-radius: 10px;
+        transition: 0.5s;
+        &._scroll {
+            background: #204B89;
+            transition: 0.5s;
+        }
         .menu__item {
             display: flex;
             align-items: center;
