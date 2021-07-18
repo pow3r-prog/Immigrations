@@ -86,9 +86,17 @@ body {
 }
 
 .header__menu .header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 75px;
   height: 134px;
-  margin-left: 12%;
+  margin-left: 9%;
   z-index: 1;
 }
 .header__menu .header__logo_img {
@@ -105,8 +113,17 @@ body {
           justify-content: space-evenly;
   width: 32%;
   margin-left: 34.4%;
-  position: absolute;
-  top: 7%;
+  position: fixed;
+  z-index: 50;
+  top: 5%;
+  border-radius: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.header__menu .menu__list._scroll {
+  background: #204B89;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 .header__menu .menu__list .menu__item {
   display: -webkit-box;
