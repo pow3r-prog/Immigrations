@@ -272,8 +272,8 @@ body {
   font-size: 288px;
   line-height: 351px;
   letter-spacing: 0.007em;
-  color: #09111B;
-  text-shadow: #8B929A 0 0 0;
+  -webkit-text-stroke: 0.5px #8B929A;
+  -webkit-text-fill-color: #09111B;
 }
 .page__rules .rules__container {
   display: -webkit-box;
@@ -344,8 +344,8 @@ body {
   font-size: 288px;
   line-height: 351px;
   letter-spacing: 0.007em;
-  color: #09111B;
-  text-shadow: #8B929A 0 0 0;
+  -webkit-text-stroke: 0.5px #8B929A;
+  -webkit-text-fill-color: #09111B;
 }
 .page__prices .donate-container {
   display: -webkit-box;
@@ -495,14 +495,14 @@ body {
   border-radius: 10px;
   background-color: #D9D9D9;
 }
-.page__prices .donate-container .donate-block__vip .select .select__list .select__item {
+.page__prices .donate-container .donate-block__vip .select .select__list .select__item_vip {
   position: relative;
   border-top: 1px solid rgba(224, 229, 231, 0.5);
   padding: 10px 15px;
   cursor: pointer;
   list-style-type: none;
 }
-.page__prices .donate-container .donate-block__vip .select .select__list .select__item:hover {
+.page__prices .donate-container .donate-block__vip .select .select__list .select__item_vip:hover {
   background-color: rgba(224, 229, 231, 0.5);
 }
 .page__prices .donate-container .donate-block__vip .privilege-vip {
@@ -577,7 +577,7 @@ body {
   line-height: 17px;
   margin-bottom: 4%;
 }
-.page__prices .donate-container .donate-block__vip .privilege__price {
+.page__prices .donate-container .donate-block__vip .privilege__price_vip {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -596,7 +596,7 @@ body {
   line-height: 44px;
   width: 100%;
 }
-.page__prices .donate-container .donate-block__vip .privilege__price p {
+.page__prices .donate-container .donate-block__vip .privilege__price_vip p {
   color: #BF9140;
 }
 .page__prices .donate-container .donate-block__vip .privilege__buy_btn {
@@ -762,14 +762,14 @@ body {
   border-radius: 10px;
   background-color: #D9D9D9;
 }
-.page__prices .donate-container .donate-block__admin .select .select__list .select__item {
+.page__prices .donate-container .donate-block__admin .select .select__list .select__item_admin {
   position: relative;
   border-top: 1px solid rgba(224, 229, 231, 0.5);
   padding: 10px 15px;
   cursor: pointer;
   list-style-type: none;
 }
-.page__prices .donate-container .donate-block__admin .select .select__list .select__item:hover {
+.page__prices .donate-container .donate-block__admin .select .select__list .select__item_admin:hover {
   background-color: rgba(224, 229, 231, 0.5);
 }
 .page__prices .donate-container .donate-block__admin .privilege-admin {
@@ -844,7 +844,7 @@ body {
   line-height: 17px;
   margin-bottom: 4%;
 }
-.page__prices .donate-container .donate-block__admin .privilege__price {
+.page__prices .donate-container .donate-block__admin .privilege__price_admin {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -863,7 +863,7 @@ body {
   line-height: 44px;
   width: 100%;
 }
-.page__prices .donate-container .donate-block__admin .privilege__price p {
+.page__prices .donate-container .donate-block__admin .privilege__price_admin p {
   color: #BF9140;
 }
 .page__prices .donate-container .donate-block__admin .privilege__buy_btn {
@@ -914,8 +914,8 @@ body {
   font-size: 288px;
   line-height: 351px;
   letter-spacing: 0.007em;
-  color: #09111B;
-  text-shadow: #8B929A 0 0 0;
+  -webkit-text-stroke: 0.5px #8B929A;
+  -webkit-text-fill-color: #09111B;
 }
 .page__contacts .contacts-block__title {
   display: -webkit-box;

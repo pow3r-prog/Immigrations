@@ -11,7 +11,14 @@ jQuery(($) => {
 		}
 	});
 
-	$('.select').on('click', '.select__item', function () {
+	$('.select').on('click', '.select__item_vip', function () {
+		$('.select__head').removeClass('open');
+		$(this).parent().fadeOut();
+		$(this).parent().prev().text($(this).text());
+		$(this).parent().prev().prev().val($(this).text());
+	});
+
+	$('.select').on('click', '.select__item_admin', function () {
 		$('.select__head').removeClass('open');
 		$(this).parent().fadeOut();
 		$(this).parent().prev().text($(this).text());
