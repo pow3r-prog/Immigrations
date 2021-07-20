@@ -1,5 +1,6 @@
-let listPriceVip = document.querySelector('.select__item_vip');
-let listPriceAdmin = document.querySelector('.select__item_admin');
-let price = document.querySelector('.privilege__price');
-
-if (price)
+let readText = document.querySelector('.select__head').textContent;
+console.log(readText);
+function checkPrice(){
+    console.log(readText);
+}
+readText.onclick=checkPrice();
