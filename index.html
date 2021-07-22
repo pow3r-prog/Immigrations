@@ -15,7 +15,7 @@
                 <img class="header__logo_img" src="img/logo.svg" alt="logo">
             </a>
             <div class="header__nav">
-                <ul class="menu__list">
+                <ul class="menu__list" id="header">
                     <li class="menu__item">
                         <a href="#" class="menu__item_link">ГЛАВНАЯ</a>
                     </li>
@@ -93,7 +93,7 @@
                     <li class="privilege-vip__list_item">Преимущество Vip №7</li>
                 </ul>
                 <div class="line"></div>
-                <a class="privilege__more" href="#">Больше</a>
+                <a class="privilege__more" href="#popup_vip">Больше</a>
                 <div class="privilege__price_vip"><div class="price_vip">50</div><p>грн</p></div>
                 <a class="privilege__buy_btn" href="#">Купить</a>
             </div>
@@ -120,7 +120,7 @@
                     <li class="privilege-admin__list_item">Преимущество Admin №7</li>
                 </ul>
                 <div class="line"></div>
-                <a class="privilege__more" href="#">Больше</a>
+                <a class="privilege__more" href="#popup_admin">Больше</a>
                 <div class="privilege__price_admin"><div class="price_admin">100</div><p>грн</p></div>
                 <a class="privilege__buy_btn" href="#">Купить</a>
             </div>
@@ -139,10 +139,11 @@
     <section class="page__footer">
         <div class="page__footer_title">© 2021 Immigration public</div>
     </section>
-    <div class="popup">
+    <div id="popup_vip" class="popup">
+        <a href="#header" class="popup__area"></a>
         <div class="popup__body">
             <div class="popup__content">
-                <a href="" class="popup__close"></a>
+                <a href="#header" class="popup__close"><img src="img/close-icon.svg" alt="X"></a>
                 <div class="popup__title">Преимущества Vip-подписки</div>
                 <div class="popup__text">
                     <ul>
@@ -153,6 +154,26 @@
                         <li>Преимущество Vip №5</li>
                         <li>Преимущество Vip №6</li>
                         <li>Преимущество Vip №7</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="popup_admin" class="popup">
+        <a href="#header" class="popup__area"></a>
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#header" class="popup__close"><img src="img/close-icon.svg" alt="X"></a>
+                <div class="popup__title">Преимущества Admin-подписки</div>
+                <div class="popup__text">
+                    <ul>
+                        <li>Преимущество Admin №1</li>
+                        <li>Преимущество Admin №2</li>
+                        <li>Преимущество Admin №3</li>
+                        <li>Преимущество Admin №4</li>
+                        <li>Преимущество Admin №5</li>
+                        <li>Преимущество Admin №6</li>
+                        <li>Преимущество Admin №7</li>
                     </ul>
                 </div>
             </div>
