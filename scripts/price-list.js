@@ -10,7 +10,6 @@ jQuery(($) => {
 			$(this).next().fadeIn();
 		}
 	});
-
 	$('.select').on('click', '.select__item_vip', function () {
 		$('.select__head').removeClass('open');
 		$(this).parent().fadeOut();
@@ -26,8 +25,6 @@ jQuery(($) => {
 			$('.price_vip').text("160");
 		}
 	});
-
-
 	$('.select').on('click', '.select__item_admin', function () {
 		$('.select__head').removeClass('open');
 		$(this).parent().fadeOut();
@@ -43,7 +40,6 @@ jQuery(($) => {
 			$('.price_admin').text("320");
 		}
 	});
-
 	$(document).click(function (e) {
 		if (!$(e.target).closest('.select').length) {
 			$('.select__head').removeClass('open');
