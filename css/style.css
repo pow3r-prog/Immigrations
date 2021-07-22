@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
   overflow-x: hidden;
   z-index: -2;
-  background-image: url("/img/bg.png");
+  background: #09111B;
   height: 4500px;
 }
 
