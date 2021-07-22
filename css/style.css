@@ -148,7 +148,7 @@ body {
   line-height: 22px;
 }
 .header__menu .menu__list .menu__item_link:hover {
-  color: #BF9140;
+  color: #ffa200;
 }
 
 .page__main-block {
@@ -597,7 +597,7 @@ body {
   width: 100%;
 }
 .page__prices .donate-container .donate-block__vip .privilege__price_vip p {
-  color: #BF9140;
+  color: #ffa200;
 }
 .page__prices .donate-container .donate-block__vip .privilege__buy_btn {
   display: -webkit-box;
@@ -864,7 +864,7 @@ body {
   width: 100%;
 }
 .page__prices .donate-container .donate-block__admin .privilege__price_admin p {
-  color: #BF9140;
+  color: #ffa200;
 }
 .page__prices .donate-container .donate-block__admin .privilege__buy_btn {
   display: -webkit-box;
