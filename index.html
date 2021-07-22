@@ -75,11 +75,11 @@
                 <div class="privilege__name">VIP</div>
                 <div class="select">
                     <input class="select__input" type="hidden" name="">
-                    <div class="select__head">Выберите план подписки</div>
+                    <div class="select__head">Vip на 30дней - 50грн.</div>
                     <ul class="select__list" style="display: none;">
-                        <li class="select__item_vip" onclick="checkPrice()">Vip на 30дней - 50грн.</li>
-                        <li class="select__item_vip" onclick="checkPrice()">Vip на 60дней - 90грн.</li>
-                        <li class="select__item_vip" onclick="checkPrice()">Vip на 120дней - 160грн.</li>
+                        <li class="select__item_vip">Vip на 30дней - 50грн.</li>
+                        <li class="select__item_vip">Vip на 60дней - 90грн.</li>
+                        <li class="select__item_vip">Vip на 120дней - 160грн.</li>
                     </ul>
                 </div>
                 <h3 class="privilege-vip">Преимущества Vip-подписки</h3>
@@ -94,7 +94,7 @@
                 </ul>
                 <div class="line"></div>
                 <a class="privilege__more" href="#">Больше</a>
-                <div class="privilege__price_vip">50<p>грн</p></div>
+                <div class="privilege__price_vip"><div class="price_vip">50</div><p>грн</p></div>
                 <a class="privilege__buy_btn" href="#">Купить</a>
             </div>
             <div class="donate-block__admin">
@@ -102,7 +102,7 @@
                 <div class="privilege__name">Admin</div>
                 <div class="select">
                     <input class="select__input" type="hidden" name="">
-                    <div class="select__head">Выберите план подписки</div>
+                    <div class="select__head">Admin на 30дней - 100грн.</div>
                     <ul class="select__list" style="display: none;">
                         <li class="select__item_admin">Admin на 30дней - 100грн.</li>
                         <li class="select__item_admin">Admin на 60дней - 180грн.</li>
@@ -121,7 +121,7 @@
                 </ul>
                 <div class="line"></div>
                 <a class="privilege__more" href="#">Больше</a>
-                <div class="privilege__price_admin">100<p>грн</p></div>
+                <div class="privilege__price_admin"><div class="price_admin">100</div><p>грн</p></div>
                 <a class="privilege__buy_btn" href="#">Купить</a>
             </div>
         </div>
@@ -139,7 +139,25 @@
     <section class="page__footer">
         <div class="page__footer_title">© 2021 Immigration public</div>
     </section>
-
+    <div class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="" class="popup__close"></a>
+                <div class="popup__title">Преимущества Vip-подписки</div>
+                <div class="popup__text">
+                    <ul>
+                        <li>Преимущество Vip №1</li>
+                        <li>Преимущество Vip №2</li>
+                        <li>Преимущество Vip №3</li>
+                        <li>Преимущество Vip №4</li>
+                        <li>Преимущество Vip №5</li>
+                        <li>Преимущество Vip №6</li>
+                        <li>Преимущество Vip №7</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="scripts/price-list.js"></script>
     <script src="scripts/navbar-scroll.js"></script>

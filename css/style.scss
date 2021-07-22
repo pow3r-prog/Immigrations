@@ -13,7 +13,7 @@
 
 //<variables>==================================================
 $ff: Montserrat;
-$orangeColor: #BF9140;
+$orangeColor: #ffa200;
 $greyColor: #8B929A;
 $blueGradientColor: linear-gradient(90.38deg, #245293 0%, #4485E4 100%);
 $orangeGradientColor: linear-gradient(90.38deg, #D55707 0%, #F59902 100%);
@@ -756,6 +756,21 @@ body {
         line-height: 17px;
         letter-spacing: 0.007em;
         color: #FFFFFF;
+    }
+}
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    &__body {
+        min-height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px 10px;
     }
 }
 
