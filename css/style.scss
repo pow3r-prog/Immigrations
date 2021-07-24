@@ -31,7 +31,7 @@ html{
 body {
     overflow-x: hidden;
     z-index: -2;
-    background-image: url("../img/bg.png");
+    background-image: url("Immigrations/img/bg.png");
     // background: #09111B;
     height: 4500px;
 
@@ -211,7 +211,7 @@ body {
             width: 81.5%;
             &_item {
                 margin-top: 2%;
-                list-style-image: url("/img/list-icon.svg");
+                list-style-image: url("Immigrations/img/list-icon.svg");
                 list-style-position: outside;
             }
         }
@@ -384,11 +384,11 @@ body {
                 flex-wrap: wrap;
                 justify-content: start;
                 margin-top: 3%;
-                margin-left: 7%;
+                margin-left: 7.5%;
                 height: 40%;
                 width: 90%;
                 &_item {
-                    list-style-image: url("/img/plus-icon_blue.svg");
+                    list-style-image: url("Immigrations/img/plus-icon_blue.svg");
                     list-style-position: outside;
                     font-style: normal;
                     font-weight: 600;
@@ -517,7 +517,7 @@ body {
                     &::after {
                         width: 20px;
                         height: 12px;
-                        background: url("/img/arrow-icon.svg") no-repeat center / cover;
+                        background: url("Immigrations/img/arrow-icon.svg") no-repeat center / cover;
                         position: absolute;
                         right: 10px;
                         bottom: 50%;
@@ -594,11 +594,11 @@ body {
                 flex-wrap: wrap;
                 justify-content: start;
                 margin-top: 3%;
-                margin-left: 7.5%;
+                margin-left: 5%;
                 height: 40%;
                 width: 90%;
                 &_item {
-                    list-style-image: url("/img/plus-icon_red.svg");
+                    list-style-image: url("Immigrations/img/plus-icon_red.svg");
                     list-style-position: inside;
                     font-style: normal;
                     font-weight: 600;
@@ -840,7 +840,7 @@ body {
         height: 80%;
         width: 100%;
         &_item {
-            list-style-image: url("/img/plus-icon_blue.svg");
+            list-style-image: url("Immigrations/img/plus-icon_blue.svg");
             margin-left: 5%;
             margin-top: 3%;
             list-style-position: outside;
@@ -872,7 +872,7 @@ body {
         height: 80%;
         width: 100%;
         &_item {
-            list-style-image: url("/img/plus-icon_red.svg");
+            list-style-image: url("Immigrations/img/plus-icon_red.svg");
             margin-left: 5%;
             margin-top: 3%;
             list-style-position: outside;
