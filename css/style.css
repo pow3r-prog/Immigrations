@@ -85,7 +85,7 @@ html {
 body {
   overflow-x: hidden;
   z-index: -2;
-  background: #09111B;
+  background-image: url("../img/bg.png");
   height: 4500px;
 }
 
