@@ -85,7 +85,7 @@ html {
 body {
   overflow-x: hidden;
   z-index: -2;
-  background-image: url("/img/bg.png");
+  background-image: url("./img/bg.png");
   height: 4500px;
 }
 
@@ -1134,7 +1134,7 @@ body {
   list-style-image: url("/img/plus-icon_blue.svg");
   margin-left: 5%;
   margin-top: 3%;
-  list-style-position: inside;
+  list-style-position: outside;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -1177,4 +1177,84 @@ body {
   font-size: 18px;
   line-height: 22px;
   color: #fff;
+}
+.popup .popup__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 200px;
+}
+.popup .popup__buttons .popup__buy_btnT {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 30%;
+  width: 10%;
+  background: #498EF2;
+  border-radius: 20px;
+  margin-right: 2%;
+  margin-left: 4%;
+}
+.popup .popup__buttons .popup__buy_btnT:hover {
+  -webkit-box-shadow: 0px 0px 50px #498EF2;
+          box-shadow: 0px 0px 50px #498EF2;
+}
+.popup .popup__buttons .popup__buy_btnS {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 30%;
+  width: 10%;
+  background: #0057FF;
+  border-radius: 20px;
+  margin-left: 2%;
+}
+.popup .popup__buttons .popup__buy_btnS:hover {
+  -webkit-box-shadow: 0px 0px 50px #0057FF;
+          box-shadow: 0px 0px 50px #0057FF;
+}
+.popup .popup__admin_rule {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2%;
+}
+.popup .popup__admin_rule .popup__criteria_title {
+  font-weight: bold;
+}
+.popup .popup__admin_rule .popup__criteria_text {
+  margin-top: 2%;
+  color: #CE4A08;
 }
