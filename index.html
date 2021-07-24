@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <div class="wrapper"></div>
     <header class="header">
         <nav class="header__menu">
             <a class="header__logo" href="#">
@@ -38,14 +39,14 @@
     <section class="page__main-block" id="main">
         <div class="page__main-text">
             <h1 class="page__main-text_title">Immigration public</h1>
-            <p class="page__main-text_desc">Лучшый паблик, на котором ты можешь поиграть.</p>
+            <p class="page__main-text_desc">Лучший паблик, на котором ты можешь поиграть.</p>
             <a class="page__main_btn" href="#">Connect</a>
         </div>
         <img class="page__main-img" src="img/main-block-icon.svg" alt="img">
-        <div class="page__main-more">
+        <a class="page__main-more" href="#rules">
             <p class="page__main-more_text">Дальше</p>
             <img class="page__main-more_icon" src="img/more-icon.svg" alt="more">
-        </div>
+        </a>
     </section>
     <section class="page__rules" id="rules">
         <h1 class="page__rules_title">Правила</h1>
@@ -84,16 +85,16 @@
                 </div>
                 <h3 class="privilege-vip">Преимущества Vip-подписки</h3>
                 <ul class="privilege-vip__list">
-                    <li class="privilege-vip__list_item">Преимущество Vip №1</li>
-                    <li class="privilege-vip__list_item">Преимущество Vip №2</li>
-                    <li class="privilege-vip__list_item">Преимущество Vip №3</li>
-                    <li class="privilege-vip__list_item">Преимущество Vip №4</li>
-                    <li class="privilege-vip__list_item">Преимущество Vip №5</li>
-                    <li class="privilege-vip__list_item">Преимущество Vip №6</li>
-                    <li class="privilege-vip__list_item">Преимущество Vip №7</li>
+                    <li class="privilege-vip__list_item">ЗАМЕТНАЯ ПРИСТАВКА [VIP] В ЧАТЕ.</li>
+                    <li class="privilege-vip__list_item">АНТИФЛЕШ ОТ СВОЕЙ КОМАНДЫ.</li>
+                    <li class="privilege-vip__list_item">ИММУНИТЕТ ОТ VOTEBAN.</li>
+                    <li class="privilege-vip__list_item">СЛЕД ЗА ГРАНАТАМИ.</li>
+                    <li class="privilege-vip__list_item">ШПРИЦ ЗДОРОВЬЯ (+30 HP).</li>
+                    <li class="privilege-vip__list_item">СМЕНА СКИНА АГЕНТА.</li>
+                    <li class="privilege-vip__list_item">УСКОРЕНЫЙ ПОДЪЕМ VIP-ИГРОКА ПО ЛЕСТНИЦЕ.</li>
                 </ul>
                 <div class="line"></div>
-                <a class="privilege__more" href="#popup_vip">Больше</a>
+                <a class="privilege__more" href="#popup_vip">Полный список</a>
                 <div class="privilege__price_vip"><div class="price_vip">50</div><p>грн</p></div>
                 <a class="privilege__buy_btn" href="#">Купить</a>
             </div>
@@ -111,16 +112,16 @@
                 </div>
                 <h3 class="privilege-admin">Преимущества Admin-подписки</h3>
                 <ul class="privilege-admin__list">
-                    <li class="privilege-admin__list_item">Преимущество Admin №1</li>
-                    <li class="privilege-admin__list_item">Преимущество Admin №2</li>
-                    <li class="privilege-admin__list_item">Преимущество Admin №3</li>
-                    <li class="privilege-admin__list_item">Преимущество Admin №4</li>
-                    <li class="privilege-admin__list_item">Преимущество Admin №5</li>
-                    <li class="privilege-admin__list_item">Преимущество Admin №6</li>
-                    <li class="privilege-admin__list_item">Преимущество Admin №7</li>
+                    <li class="privilege-admin__list_item">КИКАТЬ ИГРОКОВ.</li>
+                    <li class="privilege-admin__list_item">БАНИТЬ ИГРОКОВ.</li>
+                    <li class="privilege-admin__list_item">МЕНЯТЬ КАРТУ.</li>
+                    <li class="privilege-admin__list_item">ОТКЛЮЧАТЬ МИКРОФОН/ТЕКСТОВЫЙ ЧАТ.</li>
+                    <li class="privilege-admin__list_item">УСТАНАВЛИВАТЬ МАЯК НА ИГРОКА.</li>
+                    <li class="privilege-admin__list_item">ШЛЕПАТЬ ИГРОКОВ.</li>
+                    <li class="privilege-admin__list_item">УБИВАТЬ ИГРОКОВ.</li>
                 </ul>
                 <div class="line"></div>
-                <a class="privilege__more" href="#popup_admin">Больше</a>
+                <a class="privilege__more" href="#popup_admin">Полный список</a>
                 <div class="privilege__price_admin"><div class="price_admin">100</div><p>грн</p></div>
                 <a class="privilege__buy_btn" href="#">Купить</a>
             </div>
@@ -144,18 +145,25 @@
         <div class="popup__body">
             <div class="popup__content">
                 <a href="#header" class="popup__close"><img src="img/close-icon.svg" alt="X"></a>
-                <div class="popup__title">Преимущества Vip-подписки</div>
-                <div class="popup__text">
-                    <ul>
-                        <li>Преимущество Vip №1</li>
-                        <li>Преимущество Vip №2</li>
-                        <li>Преимущество Vip №3</li>
-                        <li>Преимущество Vip №4</li>
-                        <li>Преимущество Vip №5</li>
-                        <li>Преимущество Vip №6</li>
-                        <li>Преимущество Vip №7</li>
-                    </ul>
-                </div>
+                <div class="popup__title_vip">VIP</div>
+                <ul class="privilege-vip__list">
+                    <li class="privilege-vip__list_item">ЗАМЕТНАЯ ПРИСТАВКА [VIP] В ЧАТЕ.</li>
+                    <li class="privilege-vip__list_item">ВЫДЕЛЕНИЕ СООБЩЕНИЙ В ЧАТЕ ЗАМЕТНЫМ ЦВЕТОМ + СВОЙ ТЕГ.</li>
+                    <li class="privilege-vip__list_item">$16099 КАЖДЫЙ РАУНД (КРОМЕ ПЕРВОГО И ВТОРОГО)</li>
+                    <li class="privilege-vip__list_item">БРОНЯ 102 КАЖДЫЙ РАУНД (КРОМЕ ПЕРВОГО И ВТОРОГО)</li>
+                    <li class="privilege-vip__list_item">АНТИФЛЕШ ОТ СВОЕЙ КОМАНДЫ.</li>
+                    <li class="privilege-vip__list_item">ИММУНИТЕТ ОТ VOTEBAN</li>
+                    <li class="privilege-vip__list_item">НАБОР САПЁРА, ГРАНАТИ+ZEUS X27 КАЖДЫЙ РАУНД (ВКЛЮЧАЕТСЯ АВТОЗАКУПКА В МЕНЮ ВИПКИ)</li>
+                    <li class="privilege-vip__list_item">СЛЕД ЗА ГРАНАТАМИ.</li>
+                    <li class="privilege-vip__list_item">ВЫБОР ПИТОМЦЕВ</li>
+                    <li class="privilege-vip__list_item">ШПРИЦ ЗДОРОВЬЯ (+30 HP)</li>
+                    <li class="privilege-vip__list_item">НЕ ТЕРЯТЬ СВОЮ СКОРОСТЬ, КОГДА В ВАС ПОПАДАЮТ.</li>
+                    <li class="privilege-vip__list_item">НЕ ПОЛУЧАТЬ УРОН ПРИ ПАДЕНИИ С ВЫСОТЫ.</li>
+                    <li class="privilege-vip__list_item">СМЕНА СКИНА АГЕНТА.</li>
+                    <li class="privilege-vip__list_item">УСКОРЕНЫЙ ПОДЪЕМ VIP-ИГРОКА ПО ЛЕСТНИЦЕ.</li>
+                    <li class="privilege-vip__list_item">ДОБАВЛЕНИЕ СТИКЕРОВ НА СКИНЫ В МЕНЮ VIP.</li>
+                    <li class="privilege-vip__list_item">MUSIC KIT — ПОЗВОЛЯЕТ МЕНЯТЬ МУЗЫКАЛЬНЫЕ НАБОРЫ ИГРОКАМ С VIP СТАТУСОМ.</li>
+                </ul>
             </div>
         </div>
     </div>
@@ -164,18 +172,21 @@
         <div class="popup__body">
             <div class="popup__content">
                 <a href="#header" class="popup__close"><img src="img/close-icon.svg" alt="X"></a>
-                <div class="popup__title">Преимущества Admin-подписки</div>
-                <div class="popup__text">
-                    <ul>
-                        <li>Преимущество Admin №1</li>
-                        <li>Преимущество Admin №2</li>
-                        <li>Преимущество Admin №3</li>
-                        <li>Преимущество Admin №4</li>
-                        <li>Преимущество Admin №5</li>
-                        <li>Преимущество Admin №6</li>
-                        <li>Преимущество Admin №7</li>
-                    </ul>
-                </div>
+                <div class="popup__title_admin">Admin</div>
+                <ul class="privilege-admin__list">
+                    <li class="privilege-admin__list_item">КИКАТЬ ИГРОКОВ.</li>
+                    <li class="privilege-admin__list_item">БАНИТЬ ИГРОКОВ.</li>
+                    <li class="privilege-admin__list_item">МЕНЯТЬ КАРТУ.</li>
+                    <li class="privilege-admin__list_item">ОТКЛЮЧАТЬ МИКРОФОН/ТЕКСТОВЫЙ ЧАТ.</li>
+                    <li class="privilege-admin__list_item">УСТАНАВЛИВАТЬ МАЯК НА ИГРОКА.</li>
+                    <li class="privilege-admin__list_item">ШЛЕПАТЬ ИГРОКОВ.</li>
+                    <li class="privilege-admin__list_item">УБИВАТЬ ИГРОКОВ.</li>
+                    <li class="privilege-admin__list_item">ИЗМЕНЯТЬ ИМЕНА ИГРОКАМ.</li>
+                    <li class="privilege-admin__list_item">ИЗМЕНЯТЬ ГРАВИТАЦИЮ.</li>
+                    <li class="privilege-admin__list_item">НЕТУ ОГРАНИЧЕНИЯ НА ПОКУПКУ ОРУЖИЯ.</li>
+                    <li class="privilege-admin__list_item">РЕЗЕРВНЫЙ СЛОТ ДЛЯ СВОБОДНОГО ДОСТУПА К ИГРЕ ВНЕ ЗАВИСИМОСТИ ОТ КОЛИЧЕСТВА ИГРОКОВ НА СЕРВЕРЕ И В КОМАНДЕ, ПОЗВОЛЯЮЩИЙ ВСТУПИТЬ В ИГРУ, НЕ ДОЖИДАЯСЬ СВОЕЙ ОЧЕРЕДИ ВХОДА НА СЕРВЕР И В НАБЛЮДАТЕЛЯХ.</li>
+                    <li class="privilege-admin__list_item">НЕТУ ОГРАНИЧЕНИЯ НА ПОКУПКУ ОРУЖИЯ.</li>
+                </ul>
             </div>
         </div>
     </div>
