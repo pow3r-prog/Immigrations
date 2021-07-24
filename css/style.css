@@ -326,7 +326,7 @@ body {
 }
 .page__rules .rules__container .rules__list_item {
   margin-top: 2%;
-  list-style-image: url("/img/list-icon.svg");
+  list-style-image: url("../img/list-icon.svg");
   list-style-position: outside;
 }
 
@@ -546,7 +546,7 @@ body {
   width: 90%;
 }
 .page__prices .donate-container .donate-block__vip .privilege-vip__list_item {
-  list-style-image: url("/img/plus-icon_blue.svg");
+  list-style-image: url("../img/plus-icon_blue.svg");
   list-style-position: outside;
   font-style: normal;
   font-weight: 600;
@@ -719,7 +719,7 @@ body {
 .page__prices .donate-container .donate-block__admin .select .select__head::after {
   width: 20px;
   height: 12px;
-  background: url("/img/arrow-icon.svg") no-repeat center/cover;
+  background: url("../img/arrow-icon.svg") no-repeat center/cover;
   position: absolute;
   right: 10px;
   bottom: 50%;
@@ -814,7 +814,7 @@ body {
   width: 90%;
 }
 .page__prices .donate-container .donate-block__admin .privilege-admin__list_item {
-  list-style-image: url("/img/plus-icon_red.svg");
+  list-style-image: url("../img/plus-icon_red.svg");
   list-style-position: inside;
   font-style: normal;
   font-weight: 600;
@@ -1131,7 +1131,7 @@ body {
   width: 100%;
 }
 .popup .privilege-vip__list_item {
-  list-style-image: url("/img/plus-icon_blue.svg");
+  list-style-image: url("../img/plus-icon_blue.svg");
   margin-left: 5%;
   margin-top: 3%;
   list-style-position: outside;
@@ -1168,7 +1168,7 @@ body {
   width: 100%;
 }
 .popup .privilege-admin__list_item {
-  list-style-image: url("/img/plus-icon_red.svg");
+  list-style-image: url("../img/plus-icon_red.svg");
   margin-left: 5%;
   margin-top: 3%;
   list-style-position: outside;
