@@ -451,7 +451,7 @@ body {
 .page__prices .donate-container .donate-block__vip .select .select__head::after {
   width: 20px;
   height: 12px;
-  background: url("/img/arrow-icon.svg") no-repeat center/cover;
+  background: url("../img/arrow-icon.svg") no-repeat center/cover;
   position: absolute;
   right: 10px;
   bottom: 50%;
