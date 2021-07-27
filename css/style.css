@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /*Обнуление*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap");
+@import '../css/media.css';
 * {
   padding: 0;
   margin: 0;
@@ -197,10 +198,13 @@ body {
           align-items: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 2% 0;
   padding: 5px 160px;
   top: 20px;
-  width: 441px;
+  width: 70%;
   height: 70px;
   color: #fff;
   background: linear-gradient(90.38deg, #245293 0%, #4485E4 100%);
