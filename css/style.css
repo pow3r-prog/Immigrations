@@ -1,5 +1,4 @@
-@charset "UTF-8";
-/*Обнуление*/
+/*nullstyle*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap");
 * {
   padding: 0;
@@ -90,7 +89,7 @@ body {
 }
 
 .header__menu {
-  z-index: 40;
+  z-index: 101;
   position: fixed;
   width: 100%;
   -webkit-transition: 0.5s;
@@ -239,6 +238,7 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-left: 10%;
+  margin-top: 10%;
 }
 .page__main-block .page__main-more {
   margin-top: 5%;
@@ -1064,7 +1064,7 @@ body {
   left: 0;
   opacity: 0;
   visibility: hidden;
-  z-index: 100;
+  z-index: 102;
   overflow-y: auto;
   overflow-x: hidden;
   -webkit-transition: all 0.8s ease 0s;
@@ -1274,6 +1274,11 @@ body {
   color: #CE4A08;
 }
 
+@media (min-width: 1800px) and (max-width: 2100px) {
+  .header__menu .menu__list {
+    margin-top: 0.7%;
+  }
+}
 @media (max-width: 1341px) {
   .header__menu {
     top: 0px;
@@ -1308,8 +1313,8 @@ body {
     height: 70px;
   }
   .page__main-block .page__main-img {
-    width: 30%;
-    height: 30%;
+    width: 40%;
+    height: 40%;
     z-index: -1;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1317,6 +1322,7 @@ body {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     margin-left: 13rem;
+    margin-bottom: 5%;
   }
 
   .page__rules .page__rules_title {
@@ -1338,5 +1344,9 @@ body {
   .page__prices .price__title {
     font-size: 245px;
     line-height: 291px;
+  }
+
+  .popup .popup__content {
+    width: 55%;
   }
 }

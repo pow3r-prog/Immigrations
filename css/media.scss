@@ -1,0 +1,81 @@
+@media (min-width: 1800px) and (max-width: 2100px) {
+    .header__menu { 
+        .menu__list {
+            margin-top: 0.7%;
+        }
+    }
+}
+@media (max-width: 1341px) {
+    .header__menu { 
+        top: 0px;
+        .header__logo {
+            // visibility: hidden;
+        }
+        .menu__list {
+           width: 50%;
+        }
+    }
+    .page__main-block {
+        margin-top: 10%;
+        .page__main-text {
+            display: flex;
+            flex-wrap: wrap;
+            width: 38%;
+            height: 25%;
+            margin-left: 5rem;
+            &_title {
+                display: flex;
+                flex-wrap: wrap;
+                margin-bottom: 3rem;
+            }
+            .page__main_btn {
+                width: 100%;
+                height: 70px;
+            }
+        }
+        .page__main-img {
+            width: 40%;
+            height: 40%;
+            z-index: -1;
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 13rem;
+            margin-bottom: 5%;
+        }
+    }
+    .page__rules {
+        .page__rules_title {
+            font-size: 245px;
+            line-height: 291px;
+        }
+        .rules__container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .page__prices {
+        .price__title {
+            font-size: 245px;
+            line-height: 291px;
+        }
+    }
+    .popup {
+        .popup__content {
+            width: 55%;
+        }
+    }
+}
+
+// @media (min-width: 576px) and (max-width: 767.98px) {
+   
+// }
+
+// @media (min-width: 768px) and (max-width: 991.98px) {
+    
+   
+// }
+
+// @media (min-width: 992px) and (max-width: 1431.98px) {
+   
+// }
