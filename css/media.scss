@@ -1,35 +1,25 @@
+@media (min-width: 1800px) and (max-width: 2100px) {
+    .header__menu { 
+        .menu__list {
+            margin-top: 0.7%;
+        }
+    }
+}
 @media (max-width: 1341px) {
     .header__menu { 
+        top: 0px;
         .header__logo {
-            visibility: hidden;
+            // visibility: hidden;
         }
         .menu__list {
-            // display: flex;
-            // align-items: center;
-            flex-wrap: nowrap;
-            // justify-content: center;
-            position: absolute;
-            z-index: 1;
-            &._scroll {
-                visibility: visible;
-                background: rgba(255, 255, 255, 0);
-            }
-            .menu__item {
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                flex-wrap: wrap;
-            }
+           width: 50%;
         }
     }
     .page__main-block {
-        display: flex;
-        flex-wrap: wrap;
         margin-top: 10%;
         .page__main-text {
             display: flex;
             flex-wrap: wrap;
-            background: #000;
             width: 38%;
             height: 25%;
             margin-left: 5rem;
@@ -44,34 +34,48 @@
             }
         }
         .page__main-img {
-            width: 30%;
-            height: 30%;
+            width: 40%;
+            height: 40%;
             z-index: -1;
             display: flex;
             flex-wrap: wrap;
-            margin-left: 20%;
-            background: #000;
+            margin-left: 13rem;
+            margin-bottom: 5%;
+        }
+    }
+    .page__rules {
+        .page__rules_title {
+            font-size: 245px;
+            line-height: 291px;
+        }
+        .rules__container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .page__prices {
+        .price__title {
+            font-size: 245px;
+            line-height: 291px;
+        }
+    }
+    .popup {
+        .popup__content {
+            width: 55%;
         }
     }
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) {
+// @media (min-width: 576px) and (max-width: 767.98px) {
    
-}
+// }
 
-@media (min-width: 768px) and (max-width: 991.98px) {
+// @media (min-width: 768px) and (max-width: 991.98px) {
     
    
-}
+// }
 
-@media (min-width: 992px) and (max-width: 1431.98px) {
+// @media (min-width: 992px) and (max-width: 1431.98px) {
    
-}
-
-@media (min-width: 1800px) and (max-width: 2100px) {
-
-}
-
-@media (min-width: 2101px) {
- 
-}
+// }

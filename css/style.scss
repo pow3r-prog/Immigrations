@@ -33,15 +33,26 @@ body {
     z-index: -2;
     background-image: url("../img/bg.png");
     // background: #09111B;
-    height: 4500px;
+    height: 100%;
 
 }
 .header__menu { 
+    z-index: 101;
+    position: fixed;
+    width: 100%;
+    transition: 0.5s;
+    flex-wrap: wrap;
+    &._scroll {
+        background: #12161C;
+        transition: 0.5s;
+        border-bottom: 1px solid $greyColor;
+    }
     .header__logo {
         display: flex;
         align-items: center;
-        flex-wrap: wrap;
-        width: 75px;
+        flex-wrap: nowrap;
+        justify-content: center;
+        width: 15%;
         height: 134px;
         margin-left: 9%;
         z-index: 1;
@@ -57,13 +68,8 @@ body {
         margin-left: 34.4%;
         position: fixed;
         z-index: 50;
-        top: 5%;
+        top: 5.5%;
         border-radius: 10px;
-        transition: 0.5s;
-        &._scroll {
-            background: #204B89;
-            transition: 0.5s;
-        }
         .menu__item {
             display: flex;
             align-items: center;
@@ -138,6 +144,7 @@ body {
         align-items: center;
         flex-wrap: wrap;
         margin-left: 10%;
+        margin-top: 10%;
     }
     .page__main-more {
         margin-top: 5%;
@@ -758,6 +765,7 @@ body {
     margin-top: 12%;
     height: 2%;
     background: #172536;
+    height: 12%;
     &_title {
         font-style: normal;
         font-weight: normal;
@@ -776,7 +784,7 @@ body {
     left: 0;
     opacity: 0;
     visibility: hidden;
-    z-index: 100;
+    z-index: 102;
     overflow-y: auto;
     overflow-x: hidden;
     transition: all 0.8s ease 0s;
@@ -937,13 +945,9 @@ body {
 }
 
 
-
-
-
-
-@import '../css/media.css';
-
-
+//<media>==================================================
+@import "media.scss";
+//</media>==================================================
 
 
 

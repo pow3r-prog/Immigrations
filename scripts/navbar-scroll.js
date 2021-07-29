@@ -1,5 +1,5 @@
 $(function () {
-	var topNav = $('.menu__list');
+	let topNav = $('.header__menu');
   
 	if (topNav.length) {
 	  $(window).on('scroll', function () {
