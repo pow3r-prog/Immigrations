@@ -68,7 +68,7 @@ body {
         margin-left: 34.4%;
         position: fixed;
         z-index: 50;
-        top: 5.5%;
+        top: 4%;
         border-radius: 10px;
         .menu__item {
             display: flex;
@@ -809,6 +809,7 @@ body {
         align-items: center;
         justify-content: center;
         padding: 30px 10px;
+        font-size: 14px;
     }
     .popup__content {
         background-color: #172536;
@@ -946,7 +947,7 @@ body {
 
 
 //<media>==================================================
-@import "media.scss";
+@import "./media/media.scss";
 //</media>==================================================
 
 
