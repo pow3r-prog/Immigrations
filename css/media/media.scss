@@ -13,6 +13,7 @@
         }
         .menu__list {
            width: 50%;
+           top: 5.5%;
         }
     }
     .page__main-block {
@@ -63,6 +64,23 @@
     .popup {
         .popup__content {
             width: 55%;
+        }
+    }
+    .page__contacts {
+        .contacts__title {
+            font-size: 214px;
+            line-height: 300px;
+        }
+        .contacts-block__title {
+            font-size: 28px;
+        }
+        .contacts-block__buttons {
+            .btn__item-link_telegram {
+                width: 25%;
+            }
+            .btn__item-link_discord {
+                width: 25%;
+            }
         }
     }
 }
