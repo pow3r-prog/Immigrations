@@ -1043,9 +1043,9 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 12%;
-  height: 2%;
   background: #172536;
   height: 12%;
+  width: 100%;
 }
 .page__footer_title {
   font-style: normal;
@@ -1324,8 +1324,7 @@ body {
   }
 
   .page__rules .page__rules_title {
-    font-size: 245px;
-    line-height: 291px;
+    font-size: 15rem;
   }
   .page__rules .rules__container {
     display: -webkit-box;
@@ -1337,11 +1336,12 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    width: 100%;
+    margin-left: 4.5%;
   }
 
   .page__prices .price__title {
-    font-size: 245px;
-    line-height: 291px;
+    font-size: 15rem;
   }
 
   .popup .popup__content {
@@ -1349,8 +1349,7 @@ body {
   }
 
   .page__contacts .contacts__title {
-    font-size: 214px;
-    line-height: 300px;
+    font-size: 15rem;
   }
   .page__contacts .contacts-block__title {
     font-size: 28px;
@@ -1368,5 +1367,44 @@ body {
   }
   .page__main-block .page__main-more {
     margin-top: 10%;
+  }
+
+  .page__rules .page__rules_title {
+    font-size: 14rem;
+  }
+
+  .page__prices .price__title {
+    font-size: 14rem;
+  }
+
+  .page__contacts .contacts__title {
+    font-size: 13.5rem;
+  }
+}
+@media (max-width: 1145.98px) {
+  .header__menu .menu__list {
+    top: 5.5%;
+  }
+
+  .page__main-block {
+    margin-top: 10%;
+  }
+  .page__main-block .page__main-text {
+    width: 45%;
+  }
+  .page__main-block .page__main-img {
+    width: 35%;
+    height: 35%;
+    margin-left: 10rem;
+  }
+  .page__main-block .page__main-more {
+    margin-top: 3.5%;
+  }
+
+  .page__contacts .contacts-block__buttons .btn__item-link_telegram {
+    width: 28%;
+  }
+  .page__contacts .contacts-block__buttons .btn__item-link_discord {
+    width: 28%;
   }
 }
