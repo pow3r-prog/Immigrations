@@ -101,7 +101,7 @@ body {
   background: #12161C;
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  border-bottom: 1px solid #8B929A;
+  border-bottom: 1px solid #464C54;
 }
 .header__menu .header__logo {
   display: -webkit-box;
@@ -137,6 +137,7 @@ body {
   position: fixed;
   z-index: 50;
   top: 4%;
+  margin-top: 0.7%;
   border-radius: 10px;
 }
 .header__menu .menu__list .menu__item {
@@ -241,7 +242,7 @@ body {
   margin-top: 10%;
 }
 .page__main-block .page__main-more {
-  margin-top: 5%;
+  margin-top: 2.5%;
   margin-left: 48.5%;
 }
 .page__main-block .page__main-more_text {
@@ -1275,23 +1276,15 @@ body {
   color: #CE4A08;
 }
 
-@media (min-width: 1800px) and (max-width: 2100px) {
-  .header__menu .menu__list {
-    margin-top: 0.7%;
-  }
-}
-@media (max-width: 1341px) {
+@media (max-width: 1919.98px) {
   .header__menu {
     top: 0px;
   }
   .header__menu .menu__list {
     width: 50%;
-    top: 5.5%;
+    top: 4.5%;
   }
 
-  .page__main-block {
-    margin-top: 10%;
-  }
   .page__main-block .page__main-text {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1311,7 +1304,7 @@ body {
     margin-bottom: 3rem;
   }
   .page__main-block .page__main-text .page__main_btn {
-    width: 100%;
+    width: 80%;
     height: 70px;
   }
   .page__main-block .page__main-img {
@@ -1325,6 +1318,9 @@ body {
         flex-wrap: wrap;
     margin-left: 13rem;
     margin-bottom: 5%;
+  }
+  .page__main-block .page__main-more {
+    margin-top: 3.5%;
   }
 
   .page__rules .page__rules_title {
@@ -1349,7 +1345,7 @@ body {
   }
 
   .popup .popup__content {
-    width: 55%;
+    width: 65%;
   }
 
   .page__contacts .contacts__title {
@@ -1364,5 +1360,13 @@ body {
   }
   .page__contacts .contacts-block__buttons .btn__item-link_discord {
     width: 25%;
+  }
+}
+@media (max-width: 1280px) {
+  .page__main-block {
+    margin-top: 5%;
+  }
+  .page__main-block .page__main-more {
+    margin-top: 10%;
   }
 }

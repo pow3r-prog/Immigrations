@@ -1,23 +1,24 @@
-@media (min-width: 1800px) and (max-width: 2100px) {
-    .header__menu { 
-        .menu__list {
-            margin-top: 0.7%;
-        }
-    }
-}
-@media (max-width: 1341px) {
+// @media (min-width: 1920.98px) {
+//     .header__menu {
+//         .menu__list {
+//             top: 1.5%;
+//             .menu__item {
+//                 &_link {
+//                     font-size: 32px;
+//                 }
+//             }
+//         }
+//     }
+// }
+@media (max-width: 1919.98px) {
     .header__menu { 
         top: 0px;
-        .header__logo {
-            // visibility: hidden;
-        }
         .menu__list {
            width: 50%;
-           top: 5.5%;
+           top: 4.5%;
         }
     }
     .page__main-block {
-        margin-top: 10%;
         .page__main-text {
             display: flex;
             flex-wrap: wrap;
@@ -30,7 +31,7 @@
                 margin-bottom: 3rem;
             }
             .page__main_btn {
-                width: 100%;
+                width: 80%;
                 height: 70px;
             }
         }
@@ -42,6 +43,9 @@
             flex-wrap: wrap;
             margin-left: 13rem;
             margin-bottom: 5%;
+        }
+        .page__main-more {
+            margin-top: 3.5%;
         }
     }
     .page__rules {
@@ -63,7 +67,7 @@
     }
     .popup {
         .popup__content {
-            width: 55%;
+            width: 65%;
         }
     }
     .page__contacts {
@@ -84,6 +88,17 @@
         }
     }
 }
+@media (max-width: 1280px) {
+    .page__main-block {
+        margin-top: 5%;
+        .page__main-more {
+            margin-top: 10%;
+        }
+    }
+}
+
+
+
 
 // @media (min-width: 576px) and (max-width: 767.98px) {
    

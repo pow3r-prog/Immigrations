@@ -45,7 +45,7 @@ body {
     &._scroll {
         background: #12161C;
         transition: 0.5s;
-        border-bottom: 1px solid $greyColor;
+        border-bottom: 1px solid #464C54;
     }
     .header__logo {
         display: flex;
@@ -69,6 +69,7 @@ body {
         position: fixed;
         z-index: 50;
         top: 4%;
+        margin-top: 0.7%;
         border-radius: 10px;
         .menu__item {
             display: flex;
@@ -147,7 +148,7 @@ body {
         margin-top: 10%;
     }
     .page__main-more {
-        margin-top: 5%;
+        margin-top: 2.5%;
         margin-left: 48.5%;
         &_text {
             display: flex;
