@@ -50,19 +50,19 @@
     }
     .page__rules {
         .page__rules_title {
-            font-size: 245px;
-            line-height: 291px;
+            font-size: 15rem;
         }
         .rules__container {
             display: flex;
             align-items: center;
             justify-content: center;
+            width: 100%;
+            margin-left: 4.5%;
         }
     }
     .page__prices {
         .price__title {
-            font-size: 245px;
-            line-height: 291px;
+            font-size: 15rem;
         }
     }
     .popup {
@@ -72,8 +72,7 @@
     }
     .page__contacts {
         .contacts__title {
-            font-size: 214px;
-            line-height: 300px;
+            font-size: 15rem;
         }
         .contacts-block__title {
             font-size: 28px;
@@ -95,8 +94,53 @@
             margin-top: 10%;
         }
     }
+    .page__rules {
+        .page__rules_title {
+            font-size: 14rem;
+        }
+    }
+    .page__prices {
+        .price__title {
+            font-size: 14rem;
+        }
+    }
+    .page__contacts {
+        .contacts__title {
+            font-size: 13.5rem;
+        }
+    }
 }
-
+@media (max-width: 1145.98px) {
+    .header__menu { 
+        .menu__list {
+           top: 5.5%;
+        }
+    }
+    .page__main-block {
+        margin-top: 10%;
+        .page__main-text {
+            width: 45%;
+        }
+        .page__main-img {
+            width: 35%;
+            height: 35%;
+            margin-left: 10rem;
+        }
+        .page__main-more {
+            margin-top: 3.5%;
+        }
+    }
+    .page__contacts {
+        .contacts-block__buttons {
+            .btn__item-link_telegram {
+                width: 28%;
+            }
+            .btn__item-link_discord {
+                width: 28%;
+            }
+        }
+    }
+}
 
 
 
