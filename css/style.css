@@ -1408,3 +1408,50 @@ body {
     width: 28%;
   }
 }
+@media (max-width: 1049.98px) {
+  .header__menu .menu__list {
+    top: 5%;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+
+  .page__main-block {
+    margin-top: 15%;
+  }
+  .page__main-block .page__main-text {
+    width: 42%;
+  }
+  .page__main-block .page__main-text_title {
+    font-size: 44px;
+  }
+  .page__main-block .page__main-text_desc {
+    width: 100%;
+    font-size: 24px;
+  }
+  .page__main-block .page__main-text .page__main_btn {
+    width: 90%;
+  }
+  .page__main-block .page__main-img {
+    height: 35%;
+    width: 35%;
+  }
+
+  .page__rules .page__rules_title {
+    font-size: 12rem;
+  }
+  .page__rules .rules__container .rules__list {
+    font-size: 14px;
+  }
+
+  .page__prices .price__title {
+    font-size: 13rem;
+  }
+
+  .popup .popup__content {
+    width: 65%;
+  }
+
+  .page__contacts .contacts__title {
+    font-size: 13rem;
+  }
+}

@@ -141,7 +141,59 @@
         }
     }
 }
-
+@media (max-width: 1049.98px) {
+    .header__menu { 
+        .menu__list {
+           top: 5%;
+           flex-wrap: nowrap;
+        }
+    }
+    .page__main-block {
+        margin-top: 15%;
+        .page__main-text {
+            width: 42%;
+            &_title {
+                font-size: 44px;
+            }
+            &_desc  {
+                width: 100%;
+                font-size: 24px;
+            }
+            .page__main_btn {
+                width: 90%;
+            }
+        }
+        .page__main-img {
+            height: 35%;
+            width: 35%;
+        }
+    }
+    .page__rules {
+        .page__rules_title {
+            font-size: 12rem;
+        }
+        .rules__container {
+            .rules__list {
+                font-size: 14px;
+            }
+        }
+    }
+    .page__prices {
+        .price__title {
+            font-size: 13rem;
+        }
+    }
+    .popup {
+        .popup__content {
+            width: 65%;
+        }
+    }
+    .page__contacts {
+        .contacts__title {
+            font-size: 13rem;
+        }
+    }
+}
 
 
 // @media (min-width: 576px) and (max-width: 767.98px) {
