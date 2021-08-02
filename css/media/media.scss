@@ -153,11 +153,11 @@
         .page__main-text {
             width: 42%;
             &_title {
-                font-size: 44px;
+                font-size: 36px;
             }
             &_desc  {
                 width: 100%;
-                font-size: 24px;
+                font-size: 20px;
             }
             .page__main_btn {
                 width: 90%;
@@ -194,7 +194,92 @@
         }
     }
 }
-
+@media (max-width: 912.98px) {
+    .header__menu { 
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background: #000;
+        .header__logo {
+            // visibility: hidden;
+        }
+        .menu__list {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 10%;
+            visibility: hidden;
+        }
+        
+    }
+    .page__main-block {
+        margin-top: 20%;
+        height: 85%;
+        .page__main-text {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: center;
+            margin-top: 10%;
+            &_title {
+                margin-bottom: 0rem;
+                justify-content: center;
+            }
+            &_desc  {
+                display: flex;
+                justify-content: center;
+            }
+            .page__main_btn {
+                width: 50%;
+                height: 70px;
+            }
+        }
+        .page__main-img {
+            visibility: hidden;
+        }
+        .page__main-more {
+            margin-top: 0%;
+        }
+    }
+    .page__rules {
+        .page__rules_title {
+            font-size: 15rem;
+        }
+        .rules__container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            margin-left: 4.5%;
+        }
+    }
+    .page__prices {
+        .price__title {
+            font-size: 15rem;
+        }
+    }
+    .popup {
+        .popup__content {
+            width: 65%;
+        }
+    }
+    .page__contacts {
+        .contacts__title {
+            font-size: 15rem;
+        }
+        .contacts-block__title {
+            font-size: 28px;
+        }
+        .contacts-block__buttons {
+            .btn__item-link_telegram {
+                width: 25%;
+            }
+            .btn__item-link_discord {
+                width: 25%;
+            }
+        }
+    } 
+}
 
 // @media (min-width: 576px) and (max-width: 767.98px) {
    
