@@ -1422,11 +1422,11 @@ body {
     width: 42%;
   }
   .page__main-block .page__main-text_title {
-    font-size: 44px;
+    font-size: 36px;
   }
   .page__main-block .page__main-text_desc {
     width: 100%;
-    font-size: 24px;
+    font-size: 20px;
   }
   .page__main-block .page__main-text .page__main_btn {
     width: 90%;
@@ -1453,5 +1453,109 @@ body {
 
   .page__contacts .contacts__title {
     font-size: 13rem;
+  }
+}
+@media (max-width: 912.98px) {
+  .header__menu {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    background: #000;
+  }
+  .header__menu .menu__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 10%;
+    visibility: hidden;
+  }
+
+  .page__main-block {
+    margin-top: 20%;
+    height: 85%;
+  }
+  .page__main-block .page__main-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 10%;
+  }
+  .page__main-block .page__main-text_title {
+    margin-bottom: 0rem;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .page__main-block .page__main-text_desc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .page__main-block .page__main-text .page__main_btn {
+    width: 50%;
+    height: 70px;
+  }
+  .page__main-block .page__main-img {
+    visibility: hidden;
+  }
+  .page__main-block .page__main-more {
+    margin-top: 0%;
+  }
+
+  .page__rules .page__rules_title {
+    font-size: 15rem;
+  }
+  .page__rules .rules__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    margin-left: 4.5%;
+  }
+
+  .page__prices .price__title {
+    font-size: 15rem;
+  }
+
+  .popup .popup__content {
+    width: 65%;
+  }
+
+  .page__contacts .contacts__title {
+    font-size: 15rem;
+  }
+  .page__contacts .contacts-block__title {
+    font-size: 28px;
+  }
+  .page__contacts .contacts-block__buttons .btn__item-link_telegram {
+    width: 25%;
+  }
+  .page__contacts .contacts-block__buttons .btn__item-link_discord {
+    width: 25%;
   }
 }
