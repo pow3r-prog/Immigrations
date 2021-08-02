@@ -151,6 +151,7 @@
     .page__main-block {
         margin-top: 15%;
         .page__main-text {
+            margin-left: 0rem;
             width: 42%;
             &_title {
                 font-size: 36px;
@@ -196,24 +197,31 @@
 }
 @media (max-width: 912.98px) {
     .header__menu { 
-        align-items: center;
-        justify-content: center;
+        position: fixed;
         width: 100%;
-        background: #000;
+        height: 100%;
+        overflow: auto;
+        top: 0;
+        left: 0;
+        background: #12161C;
+        transition: left 0.3s ease 0s;
         .header__logo {
             // visibility: hidden;
+            margin-left: 0%;
+            border-bottom: 1px solid #464C54;
+            width: 100%;
         }
         .menu__list {
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            margin-top: 25%;
+            margin-left: 45%;
+            height: 50%;
             width: 10%;
-            visibility: hidden;
+            flex-wrap: wrap;
         }
         
     }
     .page__main-block {
-        margin-top: 20%;
+        margin-top: 15%;
         height: 85%;
         .page__main-text {
             display: flex;
@@ -243,39 +251,24 @@
     }
     .page__rules {
         .page__rules_title {
-            font-size: 15rem;
-        }
-        .rules__container {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 100%;
-            margin-left: 4.5%;
+            font-size: 12rem;
         }
     }
     .page__prices {
         .price__title {
-            font-size: 15rem;
-        }
-    }
-    .popup {
-        .popup__content {
-            width: 65%;
+            font-size: 12rem;
         }
     }
     .page__contacts {
         .contacts__title {
-            font-size: 15rem;
-        }
-        .contacts-block__title {
-            font-size: 28px;
+            font-size: 10rem;
         }
         .contacts-block__buttons {
             .btn__item-link_telegram {
-                width: 25%;
+                width: 30%;
             }
             .btn__item-link_discord {
-                width: 25%;
+                width: 30%;
             }
         }
     } 
