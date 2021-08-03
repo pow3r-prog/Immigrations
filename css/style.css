@@ -166,6 +166,10 @@ body {
   color: #ffa200;
 }
 
+.header__burger {
+  display: none;
+}
+
 .page__main-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1362,6 +1366,10 @@ body {
   }
 }
 @media (max-width: 1280px) {
+  .header__menu .menu__list {
+    top: 4.5%;
+  }
+
   .page__main-block {
     margin-top: 5%;
   }
@@ -1384,6 +1392,8 @@ body {
 @media (max-width: 1145.98px) {
   .header__menu .menu__list {
     top: 5.5%;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
   }
 
   .page__main-block {
@@ -1410,7 +1420,7 @@ body {
 }
 @media (max-width: 1049.98px) {
   .header__menu .menu__list {
-    top: 5%;
+    top: 5.5%;
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
   }
@@ -1419,7 +1429,7 @@ body {
     margin-top: 15%;
   }
   .page__main-block .page__main-text {
-    margin-left: 0rem;
+    margin-left: 3rem;
     width: 42%;
   }
   .page__main-block .page__main-text_title {
@@ -1438,14 +1448,14 @@ body {
   }
 
   .page__rules .page__rules_title {
-    font-size: 12rem;
+    font-size: 11rem;
   }
   .page__rules .rules__container .rules__list {
     font-size: 14px;
   }
 
   .page__prices .price__title {
-    font-size: 13rem;
+    font-size: 11rem;
   }
 
   .popup .popup__content {
@@ -1453,10 +1463,49 @@ body {
   }
 
   .page__contacts .contacts__title {
-    font-size: 13rem;
+    font-size: 10rem;
   }
 }
 @media (max-width: 912.98px) {
+  .header__burger {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 20px;
+  }
+  .header__burger span {
+    position: absolute;
+    background: #fff;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    top: 9px;
+  }
+  .header__burger:before, .header__burger:after {
+    content: "";
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    height: 2%;
+    right: 0;
+  }
+  .header__burger:before {
+    top: 0;
+  }
+  .header__burger:after {
+    bottom: 0;
+  }
+  .header__burger.active:before {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    top: 9px;
+  }
+  .header__burger.active:after {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    bottom: 9px;
+  }
+
   .header__menu {
     position: fixed;
     width: 100%;

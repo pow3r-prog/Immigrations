@@ -88,6 +88,11 @@
     }
 }
 @media (max-width: 1280px) {
+    .header__menu { 
+        .menu__list {
+           top: 4.5%;
+        }
+    }
     .page__main-block {
         margin-top: 5%;
         .page__main-more {
@@ -114,6 +119,7 @@
     .header__menu { 
         .menu__list {
            top: 5.5%;
+           flex-wrap: nowrap;
         }
     }
     .page__main-block {
@@ -144,14 +150,14 @@
 @media (max-width: 1049.98px) {
     .header__menu { 
         .menu__list {
-           top: 5%;
+           top: 5.5%;
            flex-wrap: nowrap;
         }
     }
     .page__main-block {
         margin-top: 15%;
         .page__main-text {
-            margin-left: 0rem;
+            margin-left: 3rem;
             width: 42%;
             &_title {
                 font-size: 36px;
@@ -171,7 +177,7 @@
     }
     .page__rules {
         .page__rules_title {
-            font-size: 12rem;
+            font-size: 11rem;
         }
         .rules__container {
             .rules__list {
@@ -181,7 +187,7 @@
     }
     .page__prices {
         .price__title {
-            font-size: 13rem;
+            font-size: 11rem;
         }
     }
     .popup {
@@ -191,11 +197,66 @@
     }
     .page__contacts {
         .contacts__title {
-            font-size: 13rem;
+            font-size: 10rem;
         }
     }
 }
 @media (max-width: 912.98px) {
+    .header__burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        span {
+            position: absolute;
+            background: #fff;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            top: 9px;
+        }
+        &:before,
+        &:after {
+            content: '';
+            background: #fff;
+            position: absolute;
+            width: 100%;
+            height: 2%;
+            right: 0;
+        }
+        &:before {
+            top: 0;
+        }
+        &:after {
+            bottom: 0;
+        }
+        &.active:before {
+            transform: rotate(45deg);
+            top: 9px;
+        }
+        &.active:after {
+            transform: rotate(-45deg);
+            bottom: 9px;
+        }
+    }
+    // .header__burger:before,
+    // .header__burger:after {
+    //     content: '';
+    //     background: #fff;
+    //     position: absolute;
+    //     width: 100%;
+    //     height: 2%;
+    //     right: 0;
+    // }
+    // .header__burger:before {
+    //     top: 0;
+    // }
+    // .header__burger:after {
+    //     bottom: 0;
+    // }
+    // .header__burger.active:before {
+    //         transform: rotate(45deg);
+    // }
     .header__menu { 
         position: fixed;
         width: 100%;
@@ -273,16 +334,3 @@
         }
     } 
 }
-
-// @media (min-width: 576px) and (max-width: 767.98px) {
-   
-// }
-
-// @media (min-width: 768px) and (max-width: 991.98px) {
-    
-   
-// }
-
-// @media (min-width: 992px) and (max-width: 1431.98px) {
-   
-// }
