@@ -431,6 +431,7 @@
             .page__main_btn {
                 margin-top: 5%;
                 height: 50px;
+                width: 50%;
             }
         }
         .page__main-more {
@@ -487,6 +488,19 @@
         }
     } 
 }
+@media (max-width: 414.98px) {
+    .page__main-block {
+        .page__main-more {
+            margin-top: 50%;
+            margin-left: -30%;
+        }
+    }
+    .page__contacts {
+        .contacts__title {
+            font-size: 5rem;
+        }
+    } 
+}
 @media (max-width: 375px) {
     .header__menu { 
         height: 10.5%;
@@ -524,7 +538,7 @@
     }
     .page__rules {
         .page__rules_title {
-            font-size: 4.5rem;
+            font-size: 5rem;
         }
         .rules__container {
             width: 80%;
@@ -539,7 +553,7 @@
     }
     .page__prices {
         .price__title {
-            font-size: 5.5rem;
+            font-size: 6.5rem;
         }
         .donate-container {
             .donate-block__vip {
@@ -590,16 +604,115 @@
         .contacts-block__title {
             margin-top: 0%;
         }
-        .contacts-block__buttons {
-            .btn__item-link_telegram {
-                width: 40%;
+    } 
+}
+@media (max-width: 320.98px) {
+    .header__burger {
+        margin-left: 88%;
+        margin-top: -4%;
+        &.active {
+            top: -25px;
+        }
+        &.active:before {
+            transform: rotate(45deg);
+            top: 10px;
+        }
+        &.active:after {
+            transform: rotate(-45deg);
+            bottom: 10px;
+        }
+    }
+    .header__menu { 
+        .header__logo {
+            &.active {
+                height: 10.1%;
+                margin-top: 0.8%;
             }
-            .btn__item-link_discord {
+        }
+    }
+    .page__main-block {
+        .page__main-text {
+            margin-top: 40%;
+            &_desc  {
+                margin-left: 10%;
+            }
+            .page__main_btn {
+                padding: 5px 120px;
                 width: 40%;
             }
         }
-    } 
-    .page__footer {
-        margin-top: 55%;
+        .page__main-more {
+            margin-left: -40%;
+        }
     }
+    .page__rules {
+        .page__rules_title {
+            font-size: 4.5rem;
+        }
+        .rules__container {
+            width: 90%;
+        }
+    }  
+    .page__prices {
+        .price__title {
+            font-size: 6.5rem;
+        }
+        .donate-container {
+            .donate-block__vip {
+                width: 302px;
+                margin-left: 0%;
+                .select {
+                    .select__head {
+                        font-size: 16px;
+                    } 
+                   
+                }
+                .privilege-vip__list {
+                    &_item {
+                        font-size: 14px;
+                        margin-left: 5%;
+                    }
+                }
+                .line {
+                    margin-left: 1.5%;
+                    width: 292px;
+                }
+                .privilege__buy_btn {
+                    margin-left: 5%;
+                    width: 200px;
+                    padding: 5px 135px;
+                }
+            }
+            .donate-block__admin {
+                width: 302px;
+                margin-left: 0%;
+                .select {
+                    .select__head {
+                        font-size: 16px;
+                    } 
+                   
+                }
+                .privilege-admin__list {
+                    &_item {
+                        font-size: 14px;
+                        margin-left: 5%;
+                    }
+                }
+                .line {
+                    margin-left: 1.5%;
+                    width: 292px;
+                }
+                .privilege__buy_btn {
+                    margin-left: 5%;
+                    width: 200px;
+                    padding: 5px 135px;
+                }
+            }
+        }
+    }
+    .page__contacts {
+        .contacts__title {
+            font-size: 4rem;
+        }
+    } 
 }
