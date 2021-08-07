@@ -1348,8 +1348,17 @@ body {
     font-size: 15rem;
   }
 
+  .popup__body {
+    min-height: 100%;
+  }
   .popup .popup__content {
     width: 65%;
+  }
+  .popup .popup__title_vip {
+    background-color: #204B89;
+  }
+  .popup .popup__title_admin {
+    background-color: #CE4A08;
   }
 
   .page__contacts .contacts__title {
@@ -1629,6 +1638,19 @@ body {
     margin-top: 5%;
   }
 
+  .popup .popup__buttons {
+    margin-top: -10%;
+    margin-bottom: -10%;
+  }
+  .popup .popup__buttons .popup__buy_btnT {
+    height: 30%;
+    width: 20%;
+  }
+  .popup .popup__buttons .popup__buy_btnS {
+    height: 30%;
+    width: 20%;
+  }
+
   .page__contacts .contacts__title {
     font-size: 9rem;
   }
@@ -1780,6 +1802,15 @@ body {
     margin-left: -30%;
   }
 
+  .popup .popup__buttons .popup__buy_btnT {
+    height: 30%;
+    width: 30%;
+  }
+  .popup .popup__buttons .popup__buy_btnS {
+    height: 30%;
+    width: 30%;
+  }
+
   .page__contacts .contacts__title {
     font-size: 5rem;
   }
@@ -1875,6 +1906,16 @@ body {
   .page__contacts .contacts-block__title {
     margin-top: 0%;
   }
+  .page__contacts .contacts-block__buttons .btn__item-link_telegram {
+    width: 40%;
+  }
+  .page__contacts .contacts-block__buttons .btn__item-link_discord {
+    width: 40%;
+  }
+
+  .page__footer {
+    margin-top: 55%;
+  }
 }
 @media (max-width: 320.98px) {
   .header__burger {
@@ -1967,5 +2008,14 @@ body {
 
   .page__contacts .contacts__title {
     font-size: 4rem;
+  }
+  .page__contacts .contacts-block__title {
+    margin-top: 0%;
+  }
+  .page__contacts .contacts-block__buttons .btn__item-link_telegram {
+    width: 40%;
+  }
+  .page__contacts .contacts-block__buttons .btn__item-link_discord {
+    width: 40%;
   }
 }
