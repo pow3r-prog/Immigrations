@@ -66,8 +66,17 @@
         }
     }
     .popup {
+        &__body {
+            min-height: 100%;
+        }
         .popup__content {
             width: 65%;
+        }
+        .popup__title_vip {
+            background-color: #204B89;
+        }
+        .popup__title_admin {
+            background-color: #CE4A08;
         }
     }
     .page__contacts {
@@ -77,6 +86,7 @@
         .contacts-block__title {
             font-size: 28px;
         }
+        
         .contacts-block__buttons {
             .btn__item-link_telegram {
                 width: 25%;
@@ -212,6 +222,12 @@
         height: 20px;
         margin-top: -10%;
         margin-left: 90%;
+        // &.active {
+        //     background-image: url("../img/close-icon.svg");
+        //     background-repeat: no-repeat;
+        //     width: 30px;
+        //     height: 20px;
+        // }
         span {
             position: absolute;
             background: #fff;
@@ -335,6 +351,20 @@
                 margin-left: 1%;
                 margin-top: 5%;
                 
+            }
+        }
+    }
+    .popup {
+        .popup__buttons {
+            margin-top: -10%;
+            margin-bottom: -10%;
+            .popup__buy_btnT {
+                height: 30%;
+                width: 20%;
+            }
+            .popup__buy_btnS {
+                height: 30%;
+                width: 20%;
             }
         }
     }
@@ -495,10 +525,23 @@
             margin-left: -30%;
         }
     }
+    .popup {
+        .popup__buttons {
+            .popup__buy_btnT {
+                height: 30%;
+                width: 30%;
+            }
+            .popup__buy_btnS {
+                height: 30%;
+                width: 30%;
+            }
+        }
+    }
     .page__contacts {
         .contacts__title {
             font-size: 5rem;
         }
+        
     } 
 }
 @media (max-width: 375px) {
@@ -604,7 +647,18 @@
         .contacts-block__title {
             margin-top: 0%;
         }
+        .contacts-block__buttons {
+            .btn__item-link_telegram {
+                width: 40%;
+            }
+            .btn__item-link_discord {
+                width: 40%;
+            }
+        }
     } 
+    .page__footer {
+        margin-top: 55%;
+    }
 }
 @media (max-width: 320.98px) {
     .header__burger {
@@ -652,7 +706,8 @@
         .rules__container {
             width: 90%;
         }
-    }  
+    }
+    
     .page__prices {
         .price__title {
             font-size: 6.5rem;
@@ -713,6 +768,17 @@
     .page__contacts {
         .contacts__title {
             font-size: 4rem;
+        }
+        .contacts-block__title {
+            margin-top: 0%;
+        }
+        .contacts-block__buttons {
+            .btn__item-link_telegram {
+                width: 40%;
+            }
+            .btn__item-link_discord {
+                width: 40%;
+            }
         }
     } 
 }
