@@ -1633,9 +1633,21 @@ body {
             justify-content: center;
     margin-top: 5%;
   }
+  .page__prices .donate-container .donate-block__vip .privilege__name {
+    background: #204B89;
+    -webkit-background-clip: text;
+            background-clip: text;
+    color: transparent;
+  }
   .page__prices .donate-container .donate-block__admin {
     margin-left: 1%;
     margin-top: 5%;
+  }
+  .page__prices .donate-container .donate-block__admin .privilege__name {
+    background: #CE4A08;
+    -webkit-background-clip: text;
+            background-clip: text;
+    color: transparent;
   }
 
   .popup .popup__buttons {
