@@ -222,12 +222,6 @@
         height: 20px;
         margin-top: -10%;
         margin-left: 90%;
-        // &.active {
-        //     background-image: url("../img/close-icon.svg");
-        //     background-repeat: no-repeat;
-        //     width: 30px;
-        //     height: 20px;
-        // }
         span {
             position: absolute;
             background: #fff;
@@ -346,10 +340,21 @@
             flex-wrap: wrap;
             justify-content: center;
             margin-top: 5%;
+            .donate-block__vip {
+                .privilege__name {
+                    background: #204B89;
+                    background-clip: text;
+                    color: transparent;
+                }
+            }
             .donate-block__admin {
                 margin-left: 1%;
                 margin-top: 5%;
-                
+                .privilege__name {
+                    background: #CE4A08;
+                    background-clip: text;
+                    color: transparent;
+                }
             }
         }
     }
