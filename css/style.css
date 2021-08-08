@@ -1603,7 +1603,8 @@ body {
     visibility: hidden;
   }
   .page__main-block .page__main-more {
-    margin-top: 0%;
+    margin-top: 40%;
+    margin-left: -3%;
   }
 
   .page__rules {
@@ -1634,20 +1635,14 @@ body {
     margin-top: 5%;
   }
   .page__prices .donate-container .donate-block__vip .privilege__name {
-    background: #204B89;
-    -webkit-background-clip: text;
-            background-clip: text;
-    color: transparent;
+    color: #204B89;
   }
   .page__prices .donate-container .donate-block__admin {
     margin-left: 1%;
     margin-top: 5%;
   }
   .page__prices .donate-container .donate-block__admin .privilege__name {
-    background: #CE4A08;
-    -webkit-background-clip: text;
-            background-clip: text;
-    color: transparent;
+    color: #CE4A08;
   }
 
   .popup .popup__buttons {
@@ -1671,6 +1666,36 @@ body {
   }
   .page__contacts .contacts-block__buttons .btn__item-link_discord {
     width: 35%;
+  }
+}
+@media (max-width: 786px) {
+  .page__main-block .page__main-more {
+    margin-left: -7%;
+  }
+
+  .page__rules .page__rules_title {
+    font-size: 8rem;
+  }
+
+  .page__prices .price__title {
+    font-size: 10rem;
+  }
+
+  .page__contacts .contacts__title {
+    font-size: 8rem;
+  }
+}
+@media (max-width: 628.98px) {
+  .page__rules .page__rules_title {
+    font-size: 6rem;
+  }
+
+  .page__prices .price__title {
+    font-size: 8rem;
+  }
+
+  .page__contacts .contacts__title {
+    font-size: 6rem;
   }
 }
 @media (max-width: 480px) {
@@ -1773,7 +1798,7 @@ body {
   }
 
   .page__rules .page__rules_title {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 
   .page__prices .price__title {
@@ -1799,7 +1824,7 @@ body {
   }
 
   .page__contacts .contacts__title {
-    font-size: 6rem;
+    font-size: 5rem;
   }
   .page__contacts .contacts-block__buttons .btn__item-link_telegram {
     width: 40%;
@@ -1827,7 +1852,7 @@ body {
     font-size: 5rem;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 376.98px) {
   .header__menu {
     height: 10.5%;
   }
@@ -1929,7 +1954,7 @@ body {
     margin-top: 55%;
   }
 }
-@media (max-width: 320.98px) {
+@media (max-width: 336.98px) {
   .header__burger {
     margin-left: 88%;
     margin-top: -4%;
