@@ -1144,7 +1144,7 @@ body {
   background: linear-gradient(109.01deg, #204B89 33%, #498EF2 66%, #498EF2);
   -webkit-background-clip: text;
           background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 .popup .privilege-vip__list {
   margin-top: 3%;
@@ -1181,7 +1181,7 @@ body {
   background: linear-gradient(109.01deg, #CE4A08 33%, #F79D01 66%, #F79D01);
   -webkit-background-clip: text;
           background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 .popup .privilege-admin__list {
   margin-top: 3%;
@@ -1355,10 +1355,10 @@ body {
     width: 65%;
   }
   .popup .popup__title_vip {
-    background-color: #204B89;
+    color: #204B89;
   }
   .popup .popup__title_admin {
-    background-color: #CE4A08;
+    color: #CE4A08;
   }
 
   .page__contacts .contacts__title {
@@ -1532,7 +1532,7 @@ body {
   .header__menu {
     position: fixed;
     width: 100%;
-    height: 13.5%;
+    height: 140px;
     overflow: auto;
     left: 0;
     background: #12161C;
@@ -1649,6 +1649,12 @@ body {
     margin-top: -10%;
     margin-bottom: -10%;
   }
+  .popup .popup__buttons .popup__title_vip {
+    color: #204B89;
+  }
+  .popup .popup__buttons .popup__title_admin {
+    color: #CE4A08;
+  }
   .popup .popup__buttons .popup__buy_btnT {
     height: 30%;
     width: 20%;
@@ -1752,7 +1758,7 @@ body {
   }
 
   .header__menu {
-    height: 10.5%;
+    height: 82px;
   }
   .header__menu .header__logo {
     margin-top: 7%;
@@ -1804,6 +1810,12 @@ body {
   .page__prices .price__title {
     font-size: 8rem;
   }
+  .page__prices .donate-container .donate-block__vip .privilege-vip__list_item {
+    font-size: 16px;
+  }
+  .page__prices .donate-container .donate-block__admin .privilege-admin__list_item {
+    font-size: 16px;
+  }
 
   .popup .popup__content {
     width: 75%;
@@ -1853,9 +1865,6 @@ body {
   }
 }
 @media (max-width: 376.98px) {
-  .header__menu {
-    height: 10.5%;
-  }
   .header__menu .header__logo {
     margin-top: 8.8%;
     height: 10%;
@@ -1911,12 +1920,20 @@ body {
     width: 312px;
     margin-left: 4.5%;
   }
+  .page__prices .donate-container .donate-block__vip .line {
+    margin-left: 2.5%;
+    width: 332px;
+  }
   .page__prices .donate-container .donate-block__admin {
     width: 352px;
   }
   .page__prices .donate-container .donate-block__admin .privilege__buy_btn {
     width: 312px;
     margin-left: 4.5%;
+  }
+  .page__prices .donate-container .donate-block__admin .line {
+    margin-left: 2.5%;
+    width: 332px;
   }
 
   .popup .popup__content {
