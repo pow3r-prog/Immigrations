@@ -763,6 +763,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
     margin-top: 12%;
     background: #172536;
     height: 12%;
@@ -774,6 +775,15 @@ body {
         line-height: 17px;
         letter-spacing: 0.007em;
         color: #FFFFFF;
+    }
+    &_link {
+        margin-top: 1%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.007em;
+        color: #716eff;
     }
 }
 .popup {
