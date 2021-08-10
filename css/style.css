@@ -1046,6 +1046,10 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-top: 12%;
   background: #172536;
   height: 12%;
@@ -1058,6 +1062,15 @@ body {
   line-height: 17px;
   letter-spacing: 0.007em;
   color: #FFFFFF;
+}
+.page__footer_link {
+  margin-top: 1%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.007em;
+  color: #716eff;
 }
 
 .popup {
@@ -1672,6 +1685,10 @@ body {
   }
   .page__contacts .contacts-block__buttons .btn__item-link_discord {
     width: 35%;
+  }
+
+  .page__footer_link {
+    margin-top: 5%;
   }
 }
 @media (max-width: 786px) {
