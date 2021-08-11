@@ -127,12 +127,12 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  width: 32%;
+  width: 38%;
   margin-left: 34.4%;
   position: fixed;
   z-index: 50;
@@ -1443,8 +1443,8 @@ body {
 @media (max-width: 1049.98px) {
   .header__menu .menu__list {
     top: 5.5%;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 
   .page__main-block {
