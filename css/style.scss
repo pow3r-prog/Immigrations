@@ -2,11 +2,6 @@
 //<nullstyle>==================================================
 @import "nullstyle.scss";
 //</nullstyle>==================================================
-
-//<mixins>==================================================
-@import "mixins.scss";
-//</mixins>==================================================
-
 //<fonts>==================================================
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
 //</fonts>==================================================
@@ -62,9 +57,9 @@ body {
     }
     .menu__list {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: space-evenly;
-        width: 32%;
+        width: 38%;
         margin-left: 34.4%;
         position: fixed;
         z-index: 50;
