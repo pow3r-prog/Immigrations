@@ -1489,6 +1489,10 @@ body {
   }
 }
 @media (max-width: 912.98px) {
+  body {
+    background: #09111B;
+  }
+
   body.lock {
     overflow: hidden;
   }
